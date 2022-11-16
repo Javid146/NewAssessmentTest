@@ -8,7 +8,7 @@ import java.util.List;
 public class PageBase {
  WebDriver driver;
 
-      public PageBase(WebDriver driver) {this.driver = driver;}
+    public PageBase(WebDriver driver) {this.driver = driver;}
 
     @FindBy(id = "inputEmail")
     public WebElement emailBox;

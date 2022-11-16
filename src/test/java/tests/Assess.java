@@ -8,19 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import java.io.File;
-import java.io.InputStream;
-import java.net.URI;
 import java.net.URISyntaxException;
-import java.net.URL;
-import java.nio.file.FileSystem;
-import java.nio.file.FileSystems;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
+
 
 import static org.testng.Assert.*;
 
